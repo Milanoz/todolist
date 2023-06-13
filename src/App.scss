@@ -6,6 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #576FD9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 code {
@@ -16,16 +23,11 @@ code {
 .App {
   text-align: center;
   width: 500px;
-  height: 200px;
+  height: 000px;
   background: #ffffff;
+  
   .App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+
   }
 }
 
@@ -35,22 +37,25 @@ code {
   height: 200px;
   background: #ffffff;
   border-radius: 10px;
+  padding: 10px;
   .Modal-dialog{
     .Modal-content{
       width: 500px;
       .Modal-title{
+        text-align: left;
         font-size: 20px;
         color: #333;
         border-bottom: 1px solid #333;
       }
       .Modal-body{
-
+        text-align: left;
         .Add-input{
           width: 300px;
           height: 30px;
         }
       }
       .Modal-footer{
+        text-align: right;
         .btn-save{
           width: 70px;
           height: 30px;
