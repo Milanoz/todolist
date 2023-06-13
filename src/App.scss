@@ -34,11 +34,36 @@ code {
   width: 500px;
   height: 200px;
   background: #ffffff;
+  border-radius: 10px;
   .Modal-dialog{
     .Modal-content{
+      width: 500px;
       .Modal-title{
         font-size: 20px;
         color: #333;
+        border-bottom: 1px solid #333;
+      }
+      .Modal-body{
+
+        .Add-input{
+          width: 300px;
+          height: 30px;
+        }
+      }
+      .Modal-footer{
+        .btn-save{
+          width: 70px;
+          height: 30px;
+          color: #ffffff;
+          background: #0069D9;
+          border: 1px solid #ddd;
+        }
+        .btn-close{
+          width: 70px;
+          height: 30px;
+          margin-left: 10px;
+          border: 1px solid #ddd;
+        }
       }
     }
   }

@@ -1,4 +1,4 @@
-function ModalAdd()
+function ModalAdd(props)
 {
     return(
         <>
@@ -9,7 +9,7 @@ function ModalAdd()
                             <h3 className="Modal-title">Create new task</h3>
                         </div>
                         <div className="Modal-body">
-                            <input type="text"/>
+                            <input type="text" className="Add-input"/>
                         </div>
                         <div className="Modal-footer">
                             <button className="btn-save">Save</button>
