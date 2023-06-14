@@ -23,9 +23,8 @@ code {
 .App {
   text-align: center;
   width: 500px;
-  height: 000px;
+  height: 400px;
   background: #ffffff;
-  
   .App-header {
 
   }
@@ -37,37 +36,46 @@ code {
   height: 200px;
   background: #ffffff;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 30px 10px 30px;
+  z-index: 100;
+  position: fixed;
   .Modal-dialog{
     .Modal-content{
       width: 500px;
-      .Modal-title{
+      .Modal-header{
+        border-bottom: 1px solid #333;
+        .Modal-title{
         text-align: left;
         font-size: 20px;
         color: #333;
-        border-bottom: 1px solid #333;
+      }
       }
       .Modal-body{
         text-align: left;
         .Add-input{
-          width: 300px;
+          width: 490px;
           height: 30px;
+          padding-left: 5px;
+          margin-top: 20px;
         }
       }
       .Modal-footer{
         text-align: right;
+        margin-top: 30px;
         .btn-save{
           width: 70px;
           height: 30px;
           color: #ffffff;
           background: #0069D9;
           border: 1px solid #ddd;
+          cursor: pointer;
         }
         .btn-close{
           width: 70px;
           height: 30px;
           margin-left: 10px;
           border: 1px solid #ddd;
+          cursor: pointer;
         }
       }
     }
